@@ -17,12 +17,12 @@ name: e2e-kind-create
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ master, "create-pr-action/*" ]
     paths-ignore:
       - "**.md"
       - "docs/**"
   pull_request:
-    branches: [ master ]
+    branches: [ master, "create-pr-action/*" ]
     paths-ignore:
       - "**.md"
       - "docs/**"
