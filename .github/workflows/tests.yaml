@@ -22,7 +22,7 @@ on:
       - "**.md"
       - "docs/**"
   pull_request:
-    branches: [ master ]
+    branches: [ master, "create-pr-action/*" ]
     paths-ignore:
       - "**.md"
       - "docs/**"
